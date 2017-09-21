@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#f1f1f1"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+            <ImageView
+
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/fanhui"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                />
+        </RelativeLayout>
+
+        <EditText
+
+            android:layout_width="317dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:drawableRight="@mipmap/xiangji"
+
+            />
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            >
+            <ImageView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/sandian"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+
+                />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#f22828"
+
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="全部"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="天猫"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="店捕"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+
+
+
+    <style name="include_shuru">
+        <item name="android:hint">搜索</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textSize">14sp</item>
+
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+        <item name="android:layout_height">34dip</item>
+        <item name="android:layout_marginTop">8dip</item>
+        <item name="android:layout_marginBottom">7dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">#101010</item>
+        <item name="android:textColorHint">#CCCCCC</item>
+        <item name="android:drawableRight">@mipmap/xiangji</item>
+
+
+    </style>
+</resources>

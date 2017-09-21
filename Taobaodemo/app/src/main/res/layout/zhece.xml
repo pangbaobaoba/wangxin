@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/dayu"
+            android:layout_marginTop="15dp"
+
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0e0e0e"
+            android:text="帮助"
+            android:textSize="20dp"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:src="@mipmap/touxiang"
+        android:layout_gravity="center_horizontal"
+        />
+      <Button
+          android:id="@+id/button_login"
+          android:layout_width="match_parent"
+          android:layout_height="45dp"
+          android:layout_marginTop="25dp"
+          android:background="@drawable/loginbutton"
+          android:text="登录"
+          />
+    <Button
+        android:id="@+id/zhece_button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/zhece"
+        android:text="新用户注册"
+        />
+</LinearLayout>

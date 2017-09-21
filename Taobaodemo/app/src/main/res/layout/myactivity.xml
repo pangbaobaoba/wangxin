@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll"
+        ></FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        >
+        <RadioGroup
+            android:id="@+id/my_group"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="#e9e5e5"
+            >
+
+            <RadioButton
+                android:id="@+id/button1"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/shouye"
+                android:button="@null"
+                android:layout_marginLeft="25dp"
+
+                />
+            <RadioButton
+                android:id="@+id/button2"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/weitao"
+                android:layout_marginLeft="50dp"
+                android:button="@null"
+                />
+            <RadioButton
+                android:id="@+id/button3"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:background="@drawable/gouwuche"
+                android:layout_marginLeft="50dp"
+                />
+            <RadioButton
+                android:id="@+id/button4"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:button="@null"
+                  android:background="@drawable/metaobao"
+                android:layout_marginLeft="50dp"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>
